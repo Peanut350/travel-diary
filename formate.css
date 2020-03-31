@@ -1,0 +1,90 @@
+/*dünne Zeile am oberen Rand für Sprachen und vlt Logo*/
+#lang {
+	float: top;
+	text-align: right;
+	background-color: #0d8527;
+	max-height: 5px;
+}
+
+/*grüner Balken oben mit Profilbild und Seitentitel*/
+header{
+	text-align: center;
+	font-size: 25px;
+	background-color:#0d8527;
+	/*background-image: url("img/wald.jpg");*/
+}
+header img{
+	width: 250px;
+	/*margin-top: 5px;*/
+	border-radius: 150px;
+	border: 8px solid black;
+
+}
+header p{
+	font-size: 10px;
+	text-align: center;
+	margin: 0;
+}
+header h1{
+	margin: 0;
+	font-family: Lobster, cursive;
+	text-align: center;
+}
+
+/*hier ist der content*/
+main {
+	margin: auto;
+}
+h2 {
+	font-family: Lobster, cursive;
+	font-size: 25px;
+}
+p {
+	text-align: left;
+	font-size: 20px;
+	margin: 10px;
+	font-family: 'Indie Flower', cursive;
+}
+a {
+	color: black;
+}
+a:hover {
+	background-color: red;
+}
+img {
+	max-width: 50%;
+	position: center;
+}
+
+/*Navigationsleiste am linken Rand*/
+#verzeichnis {
+	float: left;
+	padding: 0 5px;
+	width:250px;
+	max-width: 25%;
+	height:500px;
+	max-height: 90%;
+	font-size: 25px;
+	font-family: Lobster, cursive;
+	/*background-color: #0d8527;*/
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+.caption {
+	font-size: 12px;
+	font-style: italic;
+	
+}
+/*Balken am unteren Rand mit Social Media Links*/
+footer{
+	text-align: center;
+	background-color: #0d8527;
+	max-height: 10%;
+	
+}
+footer p{
+	text-align: center;
+	font-family: Lobster, cursive;
+}
